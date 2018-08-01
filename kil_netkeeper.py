@@ -1,7 +1,8 @@
 import os
 import time
 ret = 1
-while(1):
+num=0
+while(num<10):
     print(time.time())
     ret = os.system(u'tasklist | find "NK.exe"')
     print(ret)
@@ -12,4 +13,6 @@ while(1):
        ret = 1
        break
     else:
-       print('Netkeeper has not been found, and continue to search')   
+       print('Netkeeper has not been found, and continue to search')
+       num+=1
+print("kill Netkeeper fail,please confirm whether netkeeper is open")
