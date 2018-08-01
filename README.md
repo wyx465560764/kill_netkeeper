@@ -1,2 +1,5 @@
 # kill_netkeeper
 学校的netkeeper会阻止学生用电脑开wifi，想开wifi，杀掉它就可以了
+
+
+py文件不能给予管理员权限，在win10系统下没有管理员权限不能关闭进程，我选择用pyinstaller打包成exe文件
